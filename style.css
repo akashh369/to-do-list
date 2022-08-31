@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+*{
+    outline: 0;
+}
+.tb{
+    margin-bottom: 1%;
+    margin-top: -4%;
+}
+.divi{
+    position: relative;
+    background-color: aqua;
+    padding: 1vw;
+    margin: 1vw;
+    border-radius: 10px;
+    width : 21%;
+    height: 100px;
+}
+div div p{
+    margin-top: -0.8px;
+}
+p{
+    font-family: 'DynaPuff', cursive;
+    font-size: 147%;
+}
+
+.list{
+    display: flex;
+    background-color:azure;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 19px;
+    height: auto;
+}
+.button{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    border-radius: 100px;
+}
+div div textarea{
+    margin-top: -26px;
+    margin-bottom:21px; 
+}
+textarea{
+    text-align: center;
+    width : 20%;
+    box-sizing: border-box ;
+    resize: none;
+    background-color: #f8f8f8;
+    font-family: sans-serif;
+    font-size: 200%;
+    border-radius: 10px;
+    height: auto;
+}
+
+.b{
+    width: 50%;
+    height: 15%;
+    font-size: 120%;
+}
+.list a{
+    font-size: 200px;
+}
+.container{
+    position: relative;
+    text-align: center;
+    margin: 20%;
+    margin-top: 7vh;
+    border-radius: 10px;
+}
+
+.add{
+    font-size: 150%;
+    border-radius: 3px;
+    background-color: rgb(16, 95, 232);
+    color: white;
+}
+
+.ta{
+    width : 100%;
+    height: auto;
+    font-size: 100%;
+    border-style: none;
+    margin-top: auto;
+}
+/* body{
+    background-image: linear-gradient(rgb(147, 225, 239),rgb(128, 234, 167),red);
+} */
+
+body {
+	background: linear-gradient(-45deg, #8eee52, #eccd54, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
